@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.s1 {
+    border: 10px solid cadetblue;
+    background-color: paleturquoise;
+    width: 300px;
+    transition: 5s;
+}
+
+.s1 p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.s1 h3 {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.s1:hover {
+    background-color: darkblue;
+    border: 6px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.s1 p:hover {
+    margin: 10px 10px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
